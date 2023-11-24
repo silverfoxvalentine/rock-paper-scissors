@@ -1,0 +1,47 @@
+body {
+    font-family: custom;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw
+}
+
+.game {
+text-align: center;
+flex-direction: column;
+align-items: center;
+
+gap: 10px;
+width: 450px;
+height: 300px;
+
+}
+
+button {
+    background-color: lightcyan;
+    color: darkslategrey;
+    font-family: 'custom1';
+}
+
+div {
+    margin: 16px 0px;  
+}
+
+
+
+@font-face {
+    font-family: 'custom1';
+    src: url(Copperplate.ttc);
+}
+
+@font-face {
+    font-family: 'custom';
+    src: url(Memphis.ttf);
+}
+
+
+h2 {
+    margin-bottom: 8px;
+}
